@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: Outfit;
+    text-align: center;
+}
+
+#cardBack {
+    width: 23%;
+    height: 70%;
+    background-color: white;
+    margin: 20% auto;
+    border-radius: 15px;
+    filter: drop-shadow(8px 8px 20px hsl(0, 0%, 78%))
+}
+
+#QRbackground {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 90%;
+    padding: 5%;
+    border-radius: 8%;
+}
+
+#textbox {
+    width: 85%;
+    height: 165px;
+    margin: -5% auto 0;
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    width: 100%;
+    font-size: 1.4em;
+}
+p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+/* for mobile */
+@media only screen and (max-width: 375px) {
+
+#cardBack {
+    width: 90%;
+    margin: 60% auto;
+}
+}
